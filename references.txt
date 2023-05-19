@@ -1,0 +1,8 @@
+Main References:
+
+https://docusaurus.io/docs/deployment#deploying-to-github-pages
+
+Additional References:
+- https://luctst.github.io/docusaurus-starter-pack/docs/overview.html
+- https://github.com/LayZeeDK/github-pages-docusaurus
+- https://www.google.com/search?q=create+a+basic+docusaurus+page+in+github+pages&oq=create+a+basic+docusaurus+page+in+github+pages&aqs=chrome..69i57j0i546l4.19942j0j4&sourceid=chrome&ie=UTF-8
