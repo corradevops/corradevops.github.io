@@ -53,7 +53,7 @@ jobs:
             ${{ runner.os }}-${{ env.WORKDIR }}-
 
       - name: Install dependencies
-        run: yarn --cwd website/yarn.lock install --frozen-lockfile
+        run: yarn install --frozen-lockfile
         
       - name: Build website
         run: yarn --cwd website/package.json build
