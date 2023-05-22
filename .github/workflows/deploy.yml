@@ -15,6 +15,8 @@ jobs:
   deploy:
     name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v3
       
@@ -71,5 +73,7 @@ jobs:
           # https://github.com/actions/checkout/issues/13#issuecomment-724415212
           # The GH actions bot is used by default if you didn't specify the two fields.
           # You can swap them out with your own user credentials.
+          cname: 'corradevops.github.io'
+          allow_empty_commit: true
           user_name: anishcorratech
           user_email: anisha@corra.com
