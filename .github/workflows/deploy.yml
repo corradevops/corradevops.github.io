@@ -53,10 +53,10 @@ jobs:
             ${{ runner.os }}-${{ env.WORKDIR }}-
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn --cwd website install --frozen-lockfile
         
       - name: Build website
-        run: yarn --cwd website/package.json build
+        run: yarn --cwd website build
 
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
