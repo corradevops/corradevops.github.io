@@ -36,7 +36,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn-cache
+          cache: yarn
+          cache-dependency-path: ${{ runner.os }}-${{ env.WORKDIR }}-${{ hashFiles('**/yarn.lock') }}
           
       - name: Get yarn cache
         id: yarn-cache
