@@ -21,6 +21,7 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'about', label: 'about', position: 'left'},
         {
           href: 'https://github.com/corradevops/corradevops.github.io',
           label: 'GitHub',
