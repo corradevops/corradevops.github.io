@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: <>Corra Devops Documentation</>,
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/docs_book.jpg',
     description: (
       <>
         Docusaurus was designed from the ground up to be easily installed and
@@ -19,7 +19,7 @@ const features = [
   },
   {
     title: <>Corra Devops Tutorials</>,
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/tutorials.png',
     description: (
       <>
         Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
@@ -29,7 +29,7 @@ const features = [
   },
   {
     title: <>Corra Devops Opensource</>,
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    imageUrl: 'img/coding.png',
     description: (
       <>
         Extend or customize your website layout by reusing React. Docusaurus can
