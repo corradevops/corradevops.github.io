@@ -12,8 +12,8 @@ const features = [
     imageUrl: 'img/docs_book.jpg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Corra Devops Documentation Project is a collection of commonly used
+        documents and snippets by our devops team members.
       </>
     ),
   },
@@ -22,8 +22,8 @@ const features = [
     imageUrl: 'img/tutorials.png',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Corra Devops Tutorials for setting up new servers, applications and
+        infrastructure for our development requirements.
       </>
     ),
   },
@@ -32,8 +32,8 @@ const features = [
     imageUrl: 'img/coding.png',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Documentation of the Opensource code snippets and softwares from Corra
+        Devops Team.
       </>
     ),
   },
