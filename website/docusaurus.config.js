@@ -48,12 +48,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'About',
+              to: 'about',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Corra',
+              href: 'https://corra.com/',
             },
           ],
         },
@@ -66,16 +66,16 @@ module.exports = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/corradevops',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/gocorra',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Corra, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Corra, Inc.`,
     },
   },
   presets: [
