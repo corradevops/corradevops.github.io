@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Corradevops',
-  tagline: 'Corra Devops Project.',
+  tagline: 'Corra Devops Documentation Project.',
   url: 'https://corradevops.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
