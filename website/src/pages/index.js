@@ -71,8 +71,8 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to='https://github.com/corradevops/actions-gh-pages'>
-              Go to Repository
+              to='https://corra.com/'>
+              Visit our official website.
             </Link>
           </div>
         </div>
