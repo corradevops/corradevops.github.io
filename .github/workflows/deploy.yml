@@ -35,13 +35,6 @@ jobs:
           RUNNER_CONTEXT: ${{ toJson(runner) }}
         run: echo "$RUNNER_CONTEXT"
         
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '18.19.0'
-          cache: yarn
-          cache-dependency-path: ${{ runner.os }}-${{ env.WORKDIR }}-${{ hashFiles('**/yarn.lock') }}
-          #cache-dependency-path: website/package.json
-          
       - name: Get yarn cache
         id: yarn-cache
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -54,6 +47,13 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-${{ env.WORKDIR }}-
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '18.19.0'
+          cache: yarn
+          cache-dependency-path: ${{ runner.os }}-${{ env.WORKDIR }}-${{ hashFiles('**/yarn.lock') }}
+          #cache-dependency-path: website/package.json
+          
       - name: Install dependencies
         run: yarn --cwd website install --frozen-lockfile
         
