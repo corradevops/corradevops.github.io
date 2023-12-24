@@ -40,7 +40,7 @@ jobs:
           node-version: '18.19.0'
           cache: yarn
           cache-dependency-path: ${{ runner.os }}-${{ env.WORKDIR }}-${{ hashFiles('**/yarn.lock') }}
-          cache-dependency-path: website/package.json
+          #cache-dependency-path: website/package.json
           
       - name: Get yarn cache
         id: yarn-cache
