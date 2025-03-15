@@ -98,10 +98,6 @@ const config: Config = {
               label: 'Tutorial',
               to: '/docs/intro',
             },
-            {
-              label: 'Ghostty',
-              to: '/ghostty/intro',
-            },
           ],
         },
         {
