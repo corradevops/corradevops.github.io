@@ -82,7 +82,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/corradevops/corradevops.github.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -125,7 +125,11 @@ const config: Config = {
               to: '/blog',
             },
             {
-              label: 'GitHub',
+              label: 'Corra GitHub',
+              href: 'https://github.com/corratech',
+            },
+            {
+              label: 'Corra DevOps GitHub',
               href: 'https://github.com/corradevops',
             },
           ],

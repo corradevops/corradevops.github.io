@@ -24,6 +24,14 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+#### L0c4l Bu!1d
+
+```
+$ yarn start --host 0.0.0.0 --port 3000 
+```
+
+source : `https://docusaurus.io/docs/cli`
+
 ### Deployment
 
 Using SSH:
